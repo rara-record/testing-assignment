@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import Switch from '../components/Switch'
+import { TodoList } from '../components/TodoList'
+import { TodoCreate } from '../components/TodoCreate'
+import MyTodo from '../components/MyTodo'
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Switch />
+        <MyTodo />
       </main>
     </>
   )
